@@ -1,11 +1,8 @@
 { inputs, ... }:
-let
-  inherit (inputs) zen-browser;
-in
 {
   my.zen-browser.homeManager = {
     imports = [
-      zen-browser.homeModules.beta
+      inputs.zen-browser.homeModules.beta
     ];
 
     programs.zen-browser = {
@@ -23,5 +20,7 @@ in
       "x-scheme-handler/about" = "zen-beta.desktop";
       "x-scheme-handler/unknown" = "zen-beta.desktop";
     };
+
+    home.sessionVariables.BROWSER = "zen-beta";
   };
 }

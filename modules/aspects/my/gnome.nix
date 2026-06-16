@@ -23,6 +23,8 @@
         "audio/flac" = "org.gnome.Decibels";
         "audio/aac" = "org.gnome.Decibels";
       };
+
+      home.sessionVariables.GSK_RENDERER = "gl";
     };
   };
 }

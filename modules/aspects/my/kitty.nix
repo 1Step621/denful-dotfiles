@@ -81,5 +81,7 @@
         color15 #FFFFFF
       '';
     };
+
+    home.sessionVariables.TERMINAL = "kitty";
   };
 }

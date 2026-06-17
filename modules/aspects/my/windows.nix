@@ -4,7 +4,7 @@
       time.hardwareClockInLocalTime = true;
       fileSystems."/mnt/windows" = {
         device = "/dev/disk/by-uuid/${partition-id}";
-        fsType = "ntfs3";
+        fsType = "ntfs";
         options = [
           "rw"
           "uid=1000"

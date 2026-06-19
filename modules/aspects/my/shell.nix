@@ -1,5 +1,9 @@
+{ den, ... }:
 {
   my.shell = {
+    includes = [
+      (den.batteries.unfree [ "zsh-abbr" ])
+    ];
     os = {
       environment.shellAliases = {
         ls = null;

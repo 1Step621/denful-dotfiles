@@ -7,6 +7,13 @@
         displayManager.defaultSession = "niri";
         xserver.enable = true;
       };
+      virtualisation.vmVariant.virtualisation = {
+        graphics = true;
+        qemu.options = [
+          "-device virtio-vga-gl"
+          "-display gtk,gl=on"
+        ];
+      };
     };
     homeManager = { pkgs, ... }: {
       imports = [ inputs.niri-flake.homeModules.niri ];

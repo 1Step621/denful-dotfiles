@@ -2,15 +2,6 @@
 {
   den.aspects.onestep = {
     includes = [
-      (den.batteries.unfree [
-        "zsh-abbr"
-        "cuda_nvml_dev"
-        "nvidia-x11"
-        "nvidia-settings"
-        "nvidia-kernel-modules"
-        "stm32cubemx"
-      ])
-
       my.password
       my.system-basic
       den.batteries.primary-user

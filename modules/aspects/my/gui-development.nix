@@ -1,5 +1,9 @@
+{ den, ... }:
 {
   my.gui-development = {
+    includes = [
+      (den.batteries.unfree [ "stm32cubemx" ])
+    ];
     homeManager = { pkgs, ... }: {
       home.packages = [
         pkgs.arduino-ide

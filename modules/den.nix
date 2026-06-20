@@ -6,7 +6,7 @@
 }:
 {
   imports = [
-    (inputs.den.flakeModule)
+    inputs.den.flakeModule
   ];
 
   den.default.includes = [ den.batteries.inputs' ];

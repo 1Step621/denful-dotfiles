@@ -15,8 +15,8 @@
       my.cli-hobby
       my.gui-basic
       my.gui-creative
-      my.gui-hobby
       my.gui-development
+      my.gui-hobby
 
       (my.windows "DAC833ABC83384B3")
       (my.hotspot-switch {

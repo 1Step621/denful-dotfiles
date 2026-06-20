@@ -5,6 +5,7 @@
 
   inputs = {
     den.url = "github:denful/den";
+    den-diagram.url = "github:denful/den-diagram";
     dgop = {
       url = "github:AvengeMedia/dgop";
       inputs.nixpkgs.follows = "nixpkgs";

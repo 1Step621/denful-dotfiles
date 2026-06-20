@@ -10,6 +10,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     den.url = "github:denful/den";
     flake-file.url = "github:vic/flake-file";
+    den-diagram.url = "github:denful/den-diagram";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";

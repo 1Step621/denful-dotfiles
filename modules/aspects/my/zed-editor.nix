@@ -150,6 +150,11 @@
                 ctrl-shift-o = "outline::Toggle";
               };
             }
+            {
+              unbind = {
+                ctrl-q = "zed::Quit";
+              };
+            }
           ];
         };
         programs.zsh.zsh-abbr.abbreviations = {

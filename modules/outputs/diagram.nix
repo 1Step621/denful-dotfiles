@@ -3,17 +3,17 @@
   perSystem =
     { pkgs, ... }:
     let
-      diag = inputs.den-diagram.lib;
-      mmd = diag.toMermaid (
-        diag.graph.ofNamespace {
+      diagram = inputs.den-diagram.lib;
+      mmd = diagram.toMermaid (
+        diagram.graph.ofNamespace {
           aspects = my;
         }
       );
       mmdFile = pkgs.writeText "diagram.mmd" mmd;
     in
     {
-      packages.diag = pkgs.writeShellApplication {
-        name = "diag";
+      packages.diagram = pkgs.writeShellApplication {
+        name = "diagram";
         runtimeInputs = [
           pkgs.mermaid-cli
           pkgs.xdg-utils

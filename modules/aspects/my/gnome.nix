@@ -53,6 +53,8 @@
         "image/jpeg" = "org.gnome.Loupe";
       };
 
+      programs.niri.settings.binds."Mod+N".action.spawn = "nautilus";
+
       home.sessionVariables.GSK_RENDERER = "gl";
     };
   };

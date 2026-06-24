@@ -2,7 +2,6 @@
 {
   my.rsrpc = {
     includes = [
-      my.shell
       my.desktop
     ];
 
@@ -24,7 +23,6 @@
             ".config/rsrpc/detectables.json"
           ];
         }
-        { command = [ "mprisence" ]; }
       ];
     };
   };

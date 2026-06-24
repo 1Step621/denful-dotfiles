@@ -12,10 +12,9 @@
 
       my.cli-basic
       my.cli-development
-      my.cli-hobby
       my.gui-basic
-      my.gui-creative
       my.gui-development
+      my.gui-creative
       my.gui-hobby
 
       (my.windows "DAC833ABC83384B3")

@@ -21,7 +21,7 @@
             "toml"
             "typst"
             "base16"
-            "opencode"
+            "codex-acp"
           ];
           mutableUserDebug = false;
           mutableUserSettings = false;

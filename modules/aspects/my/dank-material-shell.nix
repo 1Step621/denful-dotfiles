@@ -236,6 +236,7 @@
             };
           };
           clipboardEnterToPaste = true;
+          clipboardClickToPaste = true;
         };
       };
     };

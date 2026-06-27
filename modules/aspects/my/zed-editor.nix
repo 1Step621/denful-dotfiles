@@ -23,10 +23,6 @@
             "base16"
             "codex-acp"
           ];
-          mutableUserDebug = false;
-          mutableUserSettings = false;
-          mutableUserKeymaps = false;
-          mutableUserTasks = false;
           userSettings = {
             outline_panel.button = false;
             collaboration_panel.button = false;

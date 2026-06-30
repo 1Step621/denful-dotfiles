@@ -103,6 +103,7 @@
                   outputPath = "$root/$dir/$name";
                 };
               };
+              nil.settings.nix.flake.autoArchive = true;
             };
             languages = {
               Rust = {

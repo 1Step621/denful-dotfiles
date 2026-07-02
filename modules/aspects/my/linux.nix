@@ -12,8 +12,8 @@
             enable = true;
             efiSupport = true;
             maxGenerations = 10;
-            style.wallpapers = [ ];
             style = {
+              wallpapers = [ ];
               graphicalTerminal.palette = "24273a;ed8796;a6da95;eed49f;8aadf4;f5bde6;8bd5ca;cad3f5";
               graphicalTerminal.brightPalette = "5b6078;ed8796;a6da95;eed49f;8aadf4;f5bde6;8bd5ca;cad3f5";
               graphicalTerminal.background = "24273a";
